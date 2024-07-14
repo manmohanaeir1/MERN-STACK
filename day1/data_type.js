@@ -86,4 +86,5 @@ console.log(typeof m) // is string then it is Json
 
 let n = function() {
     // function as a data type
+    console.log(typeof n);
 }
