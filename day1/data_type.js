@@ -84,7 +84,7 @@ console.log(typeof m) // is string then it is Json
 
 // functoin in js data type is function
 
-let n = function() {
+const n = function() {
     // function as a data type
     console.log(typeof n);
 }
