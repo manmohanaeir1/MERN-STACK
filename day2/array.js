@@ -68,3 +68,8 @@ console.log(allUserS[1].name)
 console.log(allUserS[1].email)
 console.log(allUserS[1].address)
 console.log(allUserS[1].phone)
+
+
+
+const json_str = JSON.stringify({ name: "manmohan", email: "manmohan@gmail.com", address: "ktm", phone: 895 })
+console.log(typeof json_str)
