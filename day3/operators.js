@@ -41,3 +41,11 @@ for (let i = 0; i < cart.length; i++) {
     total += cart[i].amount;
 }
 console.log(total); // 300
+
+
+
+let name = "Manmohan";
+let last = " Aeir";
+
+name += last;
+console.log(name); // ManmohanAeir
