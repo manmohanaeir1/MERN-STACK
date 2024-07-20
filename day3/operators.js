@@ -57,3 +57,9 @@ console.log(name); // ManmohanAeir
 let emailmessage = "Dear" + name;
 emailmessage += " Thank you for your order";
 console.log(emailmessage); // DearManmohan AeirThank you for your order
+
+
+const r = "10";
+const s = 10;
+t = r + s;
+console.log(t); // 1010
