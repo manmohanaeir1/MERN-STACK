@@ -21,3 +21,8 @@ a = a++; //12
 a = ++a; //13
 console.log(a++); // 13   post assignment
 console.log(++a); // 15   pre assignment
+
+const x = 10;
+
+console.log(x == 10); // true
+console.log(x > 10); // true
