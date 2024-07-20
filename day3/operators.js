@@ -26,3 +26,18 @@ const x = 10;
 
 console.log(x == 10); // true
 console.log(x > 10); // true
+
+
+
+const cart = [{
+        amount: 100,
+    },
+    {
+        amount: 200
+    }
+]
+let total = 0;
+for (let i = 0; i < cart.length; i++) {
+    total += cart[i].amount;
+}
+console.log(total); // 300
