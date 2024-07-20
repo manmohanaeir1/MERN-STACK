@@ -49,3 +49,11 @@ let last = " Aeir";
 
 name += last;
 console.log(name); // ManmohanAeir
+
+
+// HTML for javascript is a string
+
+
+let emailmessage = "Dear" + name;
+emailmessage += " Thank you for your order";
+console.log(emailmessage); // DearManmohan AeirThank you for your order
