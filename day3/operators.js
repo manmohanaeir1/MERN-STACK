@@ -86,3 +86,32 @@ const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const num1 = [...num, 11, 12, 13, 14, 15]; // we can use 1 to 10  using spread operator ...num
 
 console.log(num1); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+
+
+const users = {
+    name: "",
+    pass: "",
+    dob: ""
+}
+
+const admin = {
+
+    ...users,
+    role: "admin"
+
+}
+
+console.log(admin); // {name: "", pass: "", dob: "", role: "admin"}
+
+
+const user2 = {
+    name: "Manmohan",
+    pass: "12345",
+    dob: "12/12/2020"
+}
+
+const user3 = user2;
+user3.name = "updated ";
+
+console.log(user2); // {name: "updated
