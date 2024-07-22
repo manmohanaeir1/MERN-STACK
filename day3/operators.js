@@ -92,17 +92,24 @@ console.log(num1); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 const users = {
     name: "",
     pass: "",
-    dob: ""
+    dob: "",
+    email: ""
 }
 
 const admin = {
 
     ...users,
-    role: "admin"
+    role: "admin",
+    address: "add"
 
 }
 
-console.log(admin); // {name: "", pass: "", dob: "", role: "admin"}
+const { nmae, pass, ...rest } = admin; //  destructuring   // remaining key of admin object will be in rest thats called resst operator and process is called destructuring   
+//fullname = admin.name;
+// pass = admin.pass;
+
+
+//console.log(admin); // {name: "", pass: "", dob: "", role: "admin"}
 
 
 const user2 = {
