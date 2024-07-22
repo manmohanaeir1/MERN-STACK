@@ -63,3 +63,26 @@ const r = "10";
 const s = 10;
 t = r + s;
 console.log(t); // 1010
+
+
+// logial operator
+
+/* (0 < NULL) && (0 <= NUll)
+//  false   &&  true  = output is false
+
+(0 < NULL) || (0 <= NUll)
+//  false   ||  true  = output is true
+
+!(0 < NULL)
+//  false   = output is true */
+
+
+// sprade  and rest operator
+
+// ...
+
+const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+const num1 = [...num, 11, 12, 13, 14, 15]; // we can use 1 to 10  using spread operator ...num
+
+console.log(num1); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
