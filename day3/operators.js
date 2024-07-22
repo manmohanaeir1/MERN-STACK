@@ -122,3 +122,16 @@ const user3 = {...user2 }; // copy of user2
 user3.name = "updated ";
 
 console.log(user3); // {name: "updated
+
+
+// ternary operator  -> one liner statement for if else  condition (condition) ? true : false
+
+
+/* (expression) ? <True condition>  : <false Statment  >  */
+
+/* 
+let loading = true;
+loading ===true ? "Loading Icon " : "form display "
+
+
+*/
