@@ -111,7 +111,7 @@ const user2 = {
     dob: "12/12/2020"
 }
 
-const user3 = user2;
+const user3 = {...user2 }; // copy of user2
 user3.name = "updated ";
 
-console.log(user2); // {name: "updated
+console.log(user3); // {name: "updated
