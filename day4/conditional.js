@@ -52,3 +52,35 @@ if (num % 2 === 0) {
 } else {
     console.log("odd number");
 }
+
+//else if
+
+
+// students result evaluation 
+
+
+let marks = 85;
+
+if (marks >= 90) {
+    console.log("A grade");
+} else if (marks >= 80) {
+    console.log("B grade");
+} else if (marks >= 70) {
+    console.log("C grade");
+} else if (marks >= 60) {
+    colsome.log("D grade");
+
+} else {
+    console.log("fail");
+}
+
+
+
+// one line if
+//if (theme === "Dark") console.log("Dark theme");
+
+// one line  if else statement
+
+let age1 = 20;
+let stat = (age1 >= 18) ? "adult" : "minor";
+console.log(stat); // adult
