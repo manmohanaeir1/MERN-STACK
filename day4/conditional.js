@@ -41,3 +41,14 @@ if (age >= 18) {
 } else {
     console.log("you are not eligible for voting");
 }
+
+
+// odd even number
+
+let num = 5;
+
+if (num % 2 === 0) {
+    console.log("even number");
+} else {
+    console.log("odd number");
+}
