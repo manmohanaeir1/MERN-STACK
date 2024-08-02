@@ -50,6 +50,16 @@ for (;;) { //we can skip the initialization part  and increment part
 
 
 //WAP Js program using any loop to print first 30 even numbers
+
+console.log("First 30 even numbers are another way:")
+
+for (let i = 2; i <= 10; i += 2) {
+    console.log(i)
+}
+
+
+//WAP Js program using any loop to print first 30 even numbers
+
 console.log("First 30 even numbers are:")
 for (let i = 1; i <= 30; i++) {
     if (i % 2 == 0) {
@@ -57,8 +67,31 @@ for (let i = 1; i <= 30; i++) {
     }
 }
 
-console.log("First 30 even numbers are another way:")
 
-for (let i = 2; i <= 10; i += 2) {
-    console.log(i)
+// loop is used in data reptation and iteration 
+// loop is used to repeat the code block multiple times
+
+
+
+// nesting loop
+
+/* 
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5  
+*/
+
+
+// that type of loop is called nested loop which is used in rating system in real time website 
+console.log("Nested loop example")
+
+for (let i = 1; i <= 5; i++) {
+    let toprint = "";
+    for (let j = 1; j <= i; j++) {
+        toprint += j + " ";
+    }
+    console.log(toprint)
+
 }
