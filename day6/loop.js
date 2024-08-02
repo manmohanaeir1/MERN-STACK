@@ -95,3 +95,15 @@ for (let i = 1; i <= 5; i++) {
     console.log(toprint)
 
 }
+
+// for reverse order
+console.log("Nested loop example reverse order")
+
+for (let i = 5; i >= 1; i--) {
+    let toprint = "";
+    for (let j = 1; j <= i; j++) {
+        toprint += j + " ";
+    }
+    console.log(toprint)
+
+}
