@@ -13,3 +13,19 @@ console.log(lowerCaseName);
 setTimeout(() => {
     console.log('Hello');
 }, 2000);
+
+// custom function//
+
+// not allow to declear built in function name
+// function to add 2 number
+
+function addNumbers(x, y) // upto 5  
+{
+    const z = x + y;
+    return z;
+
+}
+const a = 10;
+const b = 20;
+const c = addNumbers(a, b)
+console.log(c);
