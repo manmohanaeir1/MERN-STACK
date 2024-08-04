@@ -7,3 +7,9 @@
 const name = 'MANMOHAN';
 const lowerCaseName = name.toLowerCase();
 console.log(lowerCaseName);
+
+
+// set time 
+setTimeout(() => {
+    console.log('Hello');
+}, 2000);
