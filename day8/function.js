@@ -29,3 +29,14 @@ const a = 10;
 const b = 20;
 const c = addNumbers(a, b)
 console.log(c);
+
+// const addNumber1 =function() {
+// }   // this is called functon is a data type 
+
+// are called general way of decleration of function 
+
+
+/// Arrow function => modern function
+const addNumber2 = () => {
+
+}
